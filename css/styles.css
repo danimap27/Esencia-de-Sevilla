@@ -1,0 +1,73 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar */
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .nav-link.active {
+    color: #0d6efd !important;
+    border-bottom: 2px solid #0d6efd;
+  }
+  
+  /* Secciones */
+  section {
+    padding: 2rem 0;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 2rem;
+  }
+  
+  /* Chat Styles */
+  #chatBox {
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    background-color: #f8f9fa;
+  }
+  
+  .mensaje {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  .mensaje.usuario {
+    background-color: #d1e7dd;
+    text-align: right;
+  }
+  
+  .mensaje.ia {
+    background-color: #f8d7da;
+    text-align: left;
+  }
+  
+  /* Calendario: Estilos para la tabla */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #dee2e6;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .disponible {
+    background-color: #d4edda;
+  }
+  
+  .ocupado {
+    background-color: #f8d7da;
+  }
+  
